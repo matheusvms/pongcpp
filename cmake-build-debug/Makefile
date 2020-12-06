@@ -169,6 +169,33 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+SplashScreen.obj: SplashScreen.cpp.obj
+
+.PHONY : SplashScreen.obj
+
+# target to build an object file
+SplashScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj
+.PHONY : SplashScreen.cpp.obj
+
+SplashScreen.i: SplashScreen.cpp.i
+
+.PHONY : SplashScreen.i
+
+# target to preprocess a source file
+SplashScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/SplashScreen.cpp.i
+.PHONY : SplashScreen.cpp.i
+
+SplashScreen.s: SplashScreen.cpp.s
+
+.PHONY : SplashScreen.s
+
+# target to generate assembly for a file
+SplashScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/SplashScreen.cpp.s
+.PHONY : SplashScreen.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -235,6 +262,9 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... SplashScreen.obj
+	@echo ... SplashScreen.i
+	@echo ... SplashScreen.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

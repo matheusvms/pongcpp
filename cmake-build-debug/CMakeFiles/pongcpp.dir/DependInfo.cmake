@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/Game.cpp.obj"
+  "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SplashScreen.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
   "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/main.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/main.cpp.obj"
   "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/stdafx.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
   )

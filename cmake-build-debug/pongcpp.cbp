@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.h">
 			<Option target="pongcpp"/>
 		</Unit>
+		<Unit filename="C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SplashScreen.cpp">
+			<Option target="pongcpp"/>
+		</Unit>
+		<Unit filename="C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SplashScreen.h">
+			<Option target="pongcpp"/>
+		</Unit>
 		<Unit filename="C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/main.cpp">
 			<Option target="pongcpp"/>
 		</Unit>
