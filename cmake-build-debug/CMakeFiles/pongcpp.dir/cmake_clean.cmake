@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pongcpp.dir/Game.cpp.obj"
+  "CMakeFiles/pongcpp.dir/MainMenu.cpp.obj"
+  "CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj"
   "CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
+  "CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj"
   "CMakeFiles/pongcpp.dir/main.cpp.obj"
   "CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
   "libpongcpp.dll.a"

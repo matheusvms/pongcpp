@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp
+# Install script for directory: C:/projeto/pongcpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/projeto/pongcpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

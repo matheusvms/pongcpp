@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp"
+CMAKE_SOURCE_DIR = C:\projeto\pongcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\projeto\pongcpp\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\p
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\projeto\pongcpp\cmake-build-debug\CMakeFiles C:\projeto\pongcpp\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\projeto\pongcpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,6 +169,60 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+MainMenu.obj: MainMenu.cpp.obj
+
+.PHONY : MainMenu.obj
+
+# target to build an object file
+MainMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/MainMenu.cpp.obj
+.PHONY : MainMenu.cpp.obj
+
+MainMenu.i: MainMenu.cpp.i
+
+.PHONY : MainMenu.i
+
+# target to preprocess a source file
+MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/MainMenu.cpp.i
+.PHONY : MainMenu.cpp.i
+
+MainMenu.s: MainMenu.cpp.s
+
+.PHONY : MainMenu.s
+
+# target to generate assembly for a file
+MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/MainMenu.cpp.s
+.PHONY : MainMenu.cpp.s
+
+PlayerPaddle.obj: PlayerPaddle.cpp.obj
+
+.PHONY : PlayerPaddle.obj
+
+# target to build an object file
+PlayerPaddle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj
+.PHONY : PlayerPaddle.cpp.obj
+
+PlayerPaddle.i: PlayerPaddle.cpp.i
+
+.PHONY : PlayerPaddle.i
+
+# target to preprocess a source file
+PlayerPaddle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.i
+.PHONY : PlayerPaddle.cpp.i
+
+PlayerPaddle.s: PlayerPaddle.cpp.s
+
+.PHONY : PlayerPaddle.s
+
+# target to generate assembly for a file
+PlayerPaddle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.s
+.PHONY : PlayerPaddle.cpp.s
+
 SplashScreen.obj: SplashScreen.cpp.obj
 
 .PHONY : SplashScreen.obj
@@ -195,6 +249,33 @@ SplashScreen.s: SplashScreen.cpp.s
 SplashScreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/SplashScreen.cpp.s
 .PHONY : SplashScreen.cpp.s
+
+VisibleGameObject.obj: VisibleGameObject.cpp.obj
+
+.PHONY : VisibleGameObject.obj
+
+# target to build an object file
+VisibleGameObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj
+.PHONY : VisibleGameObject.cpp.obj
+
+VisibleGameObject.i: VisibleGameObject.cpp.i
+
+.PHONY : VisibleGameObject.i
+
+# target to preprocess a source file
+VisibleGameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.i
+.PHONY : VisibleGameObject.cpp.i
+
+VisibleGameObject.s: VisibleGameObject.cpp.s
+
+.PHONY : VisibleGameObject.s
+
+# target to generate assembly for a file
+VisibleGameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pongcpp.dir\build.make CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.s
+.PHONY : VisibleGameObject.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -262,9 +343,18 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... MainMenu.obj
+	@echo ... MainMenu.i
+	@echo ... MainMenu.s
+	@echo ... PlayerPaddle.obj
+	@echo ... PlayerPaddle.i
+	@echo ... PlayerPaddle.s
 	@echo ... SplashScreen.obj
 	@echo ... SplashScreen.i
 	@echo ... SplashScreen.s
+	@echo ... VisibleGameObject.obj
+	@echo ... VisibleGameObject.i
+	@echo ... VisibleGameObject.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
