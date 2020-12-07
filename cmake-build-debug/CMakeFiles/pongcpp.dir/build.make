@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp"
+CMAKE_SOURCE_DIR = C:\projeto\pongcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\projeto\pongcpp\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pongcpp.dir/depend.make
@@ -79,65 +79,110 @@ include CMakeFiles/pongcpp.dir/flags.make
 CMakeFiles/pongcpp.dir/main.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
 CMakeFiles/pongcpp.dir/main.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
 CMakeFiles/pongcpp.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pongcpp.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\main.cpp.obj -c "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pongcpp.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\main.cpp.obj -c C:\projeto\pongcpp\main.cpp
 
 CMakeFiles/pongcpp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\main.cpp" > CMakeFiles\pongcpp.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\main.cpp > CMakeFiles\pongcpp.dir\main.cpp.i
 
 CMakeFiles/pongcpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\main.cpp" -o CMakeFiles\pongcpp.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\main.cpp -o CMakeFiles\pongcpp.dir\main.cpp.s
 
 CMakeFiles/pongcpp.dir/Game.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
 CMakeFiles/pongcpp.dir/Game.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
 CMakeFiles/pongcpp.dir/Game.cpp.obj: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pongcpp.dir/Game.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\Game.cpp.obj -c "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pongcpp.dir/Game.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\Game.cpp.obj -c C:\projeto\pongcpp\Game.cpp
 
 CMakeFiles/pongcpp.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/Game.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\Game.cpp" > CMakeFiles\pongcpp.dir\Game.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\Game.cpp > CMakeFiles\pongcpp.dir\Game.cpp.i
 
 CMakeFiles/pongcpp.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/Game.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\Game.cpp" -o CMakeFiles\pongcpp.dir\Game.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\Game.cpp -o CMakeFiles\pongcpp.dir\Game.cpp.s
 
 CMakeFiles/pongcpp.dir/stdafx.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
 CMakeFiles/pongcpp.dir/stdafx.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
 CMakeFiles/pongcpp.dir/stdafx.cpp.obj: ../stdafx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\stdafx.cpp.obj -c "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\stdafx.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\stdafx.cpp.obj -c C:\projeto\pongcpp\stdafx.cpp
 
 CMakeFiles/pongcpp.dir/stdafx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/stdafx.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\stdafx.cpp" > CMakeFiles\pongcpp.dir\stdafx.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\stdafx.cpp > CMakeFiles\pongcpp.dir\stdafx.cpp.i
 
 CMakeFiles/pongcpp.dir/stdafx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/stdafx.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\stdafx.cpp" -o CMakeFiles\pongcpp.dir\stdafx.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\stdafx.cpp -o CMakeFiles\pongcpp.dir\stdafx.cpp.s
 
 CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
 CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
 CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj: ../SplashScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\SplashScreen.cpp.obj -c "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\SplashScreen.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\SplashScreen.cpp.obj -c C:\projeto\pongcpp\SplashScreen.cpp
 
 CMakeFiles/pongcpp.dir/SplashScreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/SplashScreen.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\SplashScreen.cpp" > CMakeFiles\pongcpp.dir\SplashScreen.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\SplashScreen.cpp > CMakeFiles\pongcpp.dir\SplashScreen.cpp.i
 
 CMakeFiles/pongcpp.dir/SplashScreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/SplashScreen.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\SplashScreen.cpp" -o CMakeFiles\pongcpp.dir\SplashScreen.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\SplashScreen.cpp -o CMakeFiles\pongcpp.dir\SplashScreen.cpp.s
+
+CMakeFiles/pongcpp.dir/MainMenu.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
+CMakeFiles/pongcpp.dir/MainMenu.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
+CMakeFiles/pongcpp.dir/MainMenu.cpp.obj: ../MainMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pongcpp.dir/MainMenu.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\MainMenu.cpp.obj -c C:\projeto\pongcpp\MainMenu.cpp
+
+CMakeFiles/pongcpp.dir/MainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/MainMenu.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\MainMenu.cpp > CMakeFiles\pongcpp.dir\MainMenu.cpp.i
+
+CMakeFiles/pongcpp.dir/MainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/MainMenu.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\MainMenu.cpp -o CMakeFiles\pongcpp.dir\MainMenu.cpp.s
+
+CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
+CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
+CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj: ../VisibleGameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\VisibleGameObject.cpp.obj -c C:\projeto\pongcpp\VisibleGameObject.cpp
+
+CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\VisibleGameObject.cpp > CMakeFiles\pongcpp.dir\VisibleGameObject.cpp.i
+
+CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\VisibleGameObject.cpp -o CMakeFiles\pongcpp.dir\VisibleGameObject.cpp.s
+
+CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj: CMakeFiles/pongcpp.dir/flags.make
+CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj: CMakeFiles/pongcpp.dir/includes_CXX.rsp
+CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj: ../PlayerPaddle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pongcpp.dir\PlayerPaddle.cpp.obj -c C:\projeto\pongcpp\PlayerPaddle.cpp
+
+CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projeto\pongcpp\PlayerPaddle.cpp > CMakeFiles\pongcpp.dir\PlayerPaddle.cpp.i
+
+CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projeto\pongcpp\PlayerPaddle.cpp -o CMakeFiles\pongcpp.dir\PlayerPaddle.cpp.s
 
 # Object files for target pongcpp
 pongcpp_OBJECTS = \
 "CMakeFiles/pongcpp.dir/main.cpp.obj" \
 "CMakeFiles/pongcpp.dir/Game.cpp.obj" \
 "CMakeFiles/pongcpp.dir/stdafx.cpp.obj" \
-"CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
+"CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj" \
+"CMakeFiles/pongcpp.dir/MainMenu.cpp.obj" \
+"CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj" \
+"CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj"
 
 # External object files for target pongcpp
 pongcpp_EXTERNAL_OBJECTS =
@@ -146,6 +191,9 @@ pongcpp.exe: CMakeFiles/pongcpp.dir/main.cpp.obj
 pongcpp.exe: CMakeFiles/pongcpp.dir/Game.cpp.obj
 pongcpp.exe: CMakeFiles/pongcpp.dir/stdafx.cpp.obj
 pongcpp.exe: CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj
+pongcpp.exe: CMakeFiles/pongcpp.dir/MainMenu.cpp.obj
+pongcpp.exe: CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj
+pongcpp.exe: CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj
 pongcpp.exe: CMakeFiles/pongcpp.dir/build.make
 pongcpp.exe: ../SFML-2.5.1/lib/libsfml-graphics-d.a
 pongcpp.exe: ../SFML-2.5.1/lib/libsfml-audio-d.a
@@ -154,7 +202,7 @@ pongcpp.exe: ../SFML-2.5.1/lib/libsfml-system-d.a
 pongcpp.exe: CMakeFiles/pongcpp.dir/linklibs.rsp
 pongcpp.exe: CMakeFiles/pongcpp.dir/objects1.rsp
 pongcpp.exe: CMakeFiles/pongcpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pongcpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\projeto\pongcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable pongcpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pongcpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +215,6 @@ CMakeFiles/pongcpp.dir/clean:
 .PHONY : CMakeFiles/pongcpp.dir/clean
 
 CMakeFiles/pongcpp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug" "C:\Users\mathe\Desktop\Kaust\Fall 2020\CS 207\Project\Pong\pongcpp\cmake-build-debug\CMakeFiles\pongcpp.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\projeto\pongcpp C:\projeto\pongcpp C:\projeto\pongcpp\cmake-build-debug C:\projeto\pongcpp\cmake-build-debug C:\projeto\pongcpp\cmake-build-debug\CMakeFiles\pongcpp.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pongcpp.dir/depend
 

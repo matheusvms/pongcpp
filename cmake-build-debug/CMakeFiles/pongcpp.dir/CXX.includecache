@@ -850,19 +850,47 @@ SFML/Config.hpp
 
 ../SFML-2.5.1/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.cpp
+C:/projeto/pongcpp/Game.cpp
 stdafx.h
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/stdafx.h
+C:/projeto/pongcpp/stdafx.h
 Game.h
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.h
+C:/projeto/pongcpp/Game.h
+MainMenu.h
+C:/projeto/pongcpp/MainMenu.h
+SplashScreen.h
+C:/projeto/pongcpp/SplashScreen.h
 
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.h
+C:/projeto/pongcpp/Game.h
 SFML/Window.hpp
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SFML/Window.hpp
+C:/projeto/pongcpp/SFML/Window.hpp
 SFML/Graphics.hpp
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SFML/Graphics.hpp
+C:/projeto/pongcpp/SFML/Graphics.hpp
+PlayerPaddle.h
+C:/projeto/pongcpp/PlayerPaddle.h
 
-C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/stdafx.h
+C:/projeto/pongcpp/MainMenu.h
+SFML/Window.hpp
+C:/projeto/pongcpp/SFML/Window.hpp
+SFML/Graphics.hpp
+C:/projeto/pongcpp/SFML/Graphics.hpp
+list
+-
+
+C:/projeto/pongcpp/PlayerPaddle.h
+VisibleGameObject.h
+C:/projeto/pongcpp/VisibleGameObject.h
+
+C:/projeto/pongcpp/SplashScreen.h
+stdafx.h
+C:/projeto/pongcpp/stdafx.h
+
+C:/projeto/pongcpp/VisibleGameObject.h
+SFML/Window.hpp
+C:/projeto/pongcpp/SFML/Window.hpp
+SFML/Graphics.hpp
+C:/projeto/pongcpp/SFML/Graphics.hpp
+
+C:/projeto/pongcpp/stdafx.h
 stdio.h
 -
 SFML/System.hpp

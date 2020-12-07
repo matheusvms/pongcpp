@@ -4,10 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/Game.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/Game.cpp.obj"
-  "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/SplashScreen.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
-  "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/main.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/main.cpp.obj"
-  "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/stdafx.cpp" "C:/Users/mathe/Desktop/Kaust/Fall 2020/CS 207/Project/Pong/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
+  "C:/projeto/pongcpp/Game.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/Game.cpp.obj"
+  "C:/projeto/pongcpp/MainMenu.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/MainMenu.cpp.obj"
+  "C:/projeto/pongcpp/PlayerPaddle.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/PlayerPaddle.cpp.obj"
+  "C:/projeto/pongcpp/SplashScreen.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/SplashScreen.cpp.obj"
+  "C:/projeto/pongcpp/VisibleGameObject.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/VisibleGameObject.cpp.obj"
+  "C:/projeto/pongcpp/main.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/main.cpp.obj"
+  "C:/projeto/pongcpp/stdafx.cpp" "C:/projeto/pongcpp/cmake-build-debug/CMakeFiles/pongcpp.dir/stdafx.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
